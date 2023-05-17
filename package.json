@@ -1,0 +1,44 @@
+{
+  "name": "result_system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node index.js",
+    "server": "nodemon index.js --ignore client"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "core-js": "^2.6.5",
+    "default-passive-events": "^2.0.0",
+    "echarts": "^5.3.0",
+    "element-ui": "^2.15.6",
+    "js-cookie": "^3.0.1",
+    "jsencrypt": "^3.2.1",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "svg-sprite-loader": "^6.0.11",
+    "vue": "^2.6.10",
+    "vue-cookies": "^1.7.4",
+    "vue-cropper": "^0.5.8",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "sass": "^1.55.0",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
